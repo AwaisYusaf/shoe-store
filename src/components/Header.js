@@ -9,14 +9,58 @@ function Header() {
     for(let i=0;i<state.length;i++){
        quantity+= state[i].quantity;
     }
+    const [homeStatus,setHomeActive] = useState(true);
+    const [productsStatus,setProductsActive] = useState(false);
+    const [aboutStatus,setAboutActive] = useState(false);
+    const [cartStatus,setCartActive] = useState(false);
+
+
     return (
         <Container>
             <Logo src="/images/logo3.png"/>
             <Menu >
-                <HeaderLink className="header-link" to="/">Home</HeaderLink>
-                <HeaderLink className="header-link" to="products">Products</HeaderLink>
-                <HeaderLink className="header-link" to="about">About</HeaderLink>
-                <Cart>
+                
+                <HeaderLink 
+                className="header-link"
+                style={homeStatus?{borderBottom:'2px black solid'}:{}} 
+                to="/"
+                onClick={()=>{
+                    setProductsActive(false);
+                    setCartActive(false);
+                    setHomeActive(true);
+                    setAboutActive(false);
+                }}>Home</HeaderLink>
+                
+                <HeaderLink 
+                className="header-link" 
+                style={productsStatus?{borderBottom:'2px black solid'}:{}}
+                to="products"
+                onClick={()=>{
+                    setProductsActive(true);
+                    setCartActive(false);
+                    setHomeActive(false);
+                    setAboutActive(false);
+                }}>Products</HeaderLink>
+                
+                <HeaderLink 
+                className="header-link" 
+                style={aboutStatus?{borderBottom:'2px black solid'}:{}}
+                to="about"
+                onClick={()=>{
+                    setProductsActive(false);
+                    setCartActive(false);
+                    setHomeActive(false);
+                    setAboutActive(true);
+                }}>About</HeaderLink>
+
+                <Cart
+                onClick={()=>{
+                    setProductsActive(false);
+                    setCartActive(true);
+                    setHomeActive(false);
+                    setAboutActive(false);
+                }}
+                style={cartStatus?{borderBottom:'2px black solid'}:{}}>
                     <Link to='/cart'>
                         <ShoppingCartIcon/>
                         <p>{quantity}</p>
@@ -79,6 +123,7 @@ const Container = styled.div`
     display:flex;
     min-height:60px;
     position:fixed;
+    background-color:transparent;
     align-items:center;
     justify-content:space-around;
     padding:0 10px;

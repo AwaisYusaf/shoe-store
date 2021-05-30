@@ -11,10 +11,23 @@ const Reducer = (state,action)=>{
             if(newState[i].slug===action.payload){
                 found=true;
                 newState[i].quantity+=1;
+                console.log(newState);
+                break;
             }
         }
         if(!found){
             newState.push({slug:action.payload,quantity:1});
+        }
+        return newState;
+    }
+    else if(action.type==='REMOVE'){
+        let newState = [];
+        
+        for(let i = 0;i<state.length ;i++){
+            if(state[i].slug===action.payload){
+               continue;
+            }
+            newState.push(state[i]);
         }
         return newState;
     }

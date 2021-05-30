@@ -13,7 +13,6 @@ function Product({details}) {
     const path = useParams();
     const [isRaised,setRaised] = useState(false);
     const {dispatch} = useContext(MyContext);
-
     function addToCart(){
         dispatch({type:'ADD',payload:slug});
     }
