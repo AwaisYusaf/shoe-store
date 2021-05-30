@@ -1,0 +1,80 @@
+{
+    "air-jordan-one-mid-shoe":{
+        "name":"Air Jordan One Mid",
+        "image":"/images/air-jordan-1-mid-shoe-scZZ99.jpg",
+        "price":240
+    },
+
+    "air-jordan-six-retro-shoe":{
+        "name":"Air Jordan Six Retro",
+        "image":"/images/air-jordan-6-retro-shoe.jpg",
+        "price":300
+    },
+    "air-max-90-womens-shoe-g5nqKN":{
+        "name":"Air Max 90 Women",
+        "image":"/images/air-max-90-womens-shoe-g5nqKN.jpg",
+        "price":240
+    },
+
+    "air-max-270-extreme-little-kids-shoe-Jmm70F":{
+        "name":"Air Max 270 Extreme Little Kid",
+        "image":"/images/air-max-270-extreme-little-kids-shoe-Jmm70F.jpg",
+        "price":240
+    },
+
+    "air-max-plus-mens-shoe-x9G2xF":{
+        "name":"Air Max Plus Mens",
+        "image":"/images/air-max-plus-mens-shoe-x9G2xF.jpg",
+        "price":240
+    },
+
+    "air-max-zephyr-shoe-SDSC8j":{
+        "name":"Air Max Zephyr",
+        "image":"/images/air-max-zephyr-shoe-SDSC8j.jpg",
+        "price":240
+    },
+
+    "air-zoom-gt-cut-basketball-shoe-3JZkK9":{
+        "name":"Air Zoom GT Cut BasketBall",
+        "image":"/images/air-zoom-gt-cut-basketball-shoe-3JZkK9.jpg",
+        "price":240
+    },
+
+    "cosmic-unity-basketball-shoe-nDHKr4":{
+        "name":"Cosmic Unity BasketBall",
+        "image":"/images/cosmic-unity-basketball-shoe-nDHKr4.jpg",
+        "price":240
+    },
+
+
+
+
+    "jordan-jumpman-2021-pf-basketball-shoe-X3gQBM":{
+        "name":"Jordan JumpMan 2021",
+        "image":"/images/jordan-jumpman-2021-pf-basketball-shoe-X3gQBM.jpg",
+        "price":240
+    },
+
+
+    "kyrie-flytrap-4-ep-basketball-shoe-qzg21C":{
+        "name":"Kyrie Flytrap 4 ep BasketBall",
+        "image":"/images/kyrie-flytrap-4-ep-basketball-shoe-qzg21C.jpg",
+        "price":240
+    },
+    "nike-quest-3-premium":{
+        "name":"Nike quest 3 premium",
+        "image":"/images/nike-quest-3-premium.jpg",
+        "price":240
+    },
+    "sb-shane-skate-shoe-Cj0plV":{
+        "name":"Shane Skate",
+        "image":"/images/sb-shane-skate-shoe-Cj0plV.jpg",
+        "price":240
+    },
+
+    "wio-8-running-shoe-S6jPM3":{
+        "name":"WiO 8 Running shoes",
+        "image":"/images/wio-8-running-shoe-S6jPM3.jpg",
+        "price":240
+    }
+}
